@@ -77,10 +77,10 @@
     "webpack": "^4.41.4",
     "webpack-cli": "^3.3.10"
   },
-  "author": "Mark Muskardin",
-  "homepage": "https://hackingbeauty.github.io/react-mic",
+  "author": "Cedric Jefferson",
+  "homepage": "http://localhost/projet_4a_reconnaissance_des_emotions/react-mic-final-version/demo/src/",
   "license": "MIT",
-  "repository": "https://github.com/hackingbeauty/react-mic",
+  "repository": "https://github.com/Cedric-Jefferson/react-mic-final-version",
   "dependencies": {
     "prop-types": "^15.5.10",
     "react-ga": "^2.2.0"
