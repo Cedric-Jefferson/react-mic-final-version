@@ -117,7 +117,7 @@ class AudioRecorder extends Component {
                   <a
                     className={downloadLink}
                     href={downloadLinkURL}
-                    download={`recording.webm`}
+                    download={`recording.wav`}
                   />
                 </div>
               </div>
