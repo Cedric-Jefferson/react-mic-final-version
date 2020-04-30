@@ -73,6 +73,8 @@ class AudioRecorder extends Component {
     const stopBtn = !recordingStarted ? "fa disabled fa-stop-circle" : "fa fa-stop-circle"
     const downloadLink = recordingStopped ? "fa fa-download" : "fa disabled fa-download"
 
+    const tabrecords = []; let i = 0;
+
     return (
       <div>
         <div id="project-wrapper">
@@ -80,7 +82,7 @@ class AudioRecorder extends Component {
             <div id="overlay" />
             <div id="content">
               <h2>React-Mic</h2>
-              <h3>Record Audio As A WebM Audio File</h3>
+              <h3>Record a .wav Audio File</h3>
               <ReactMic
                 className="oscilloscope"
                 record={isRecording}
